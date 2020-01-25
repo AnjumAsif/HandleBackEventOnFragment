@@ -25,6 +25,7 @@ class FirstFragment : BaseFragment(), View.OnClickListener {
     override fun onClick(v: View?) {
         when (v?.id) {
             R.id.buttonPost1 -> {
+
                 loadFragment(SecondFragment())
             }
 
